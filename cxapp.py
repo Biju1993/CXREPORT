@@ -3,7 +3,7 @@ import os
 import streamlit as st
 from streamlit.components.v1 import iframe
 
-st.image("https://media.licdn.com/dms/image/C510BAQEtBLtYFZ5zQQ/company-logo_200_200/0/1527689641467/lotus_enterprises_ele_logo?e=2147483647&v=beta&t=utAoilA30rqFIzSi_ripReXixSQfifg6t5thDEg_DXA")
+st.image("https://www.zyeta.com/wp-content/uploads/2024/10/logo-25th-1536x1536-1.png", width=150)
 st.title("DB COMMISSIONING REPORT GENERATOR")
 
 env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
